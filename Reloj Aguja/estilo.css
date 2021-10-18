@@ -1,0 +1,22 @@
+.reloj {
+	padding: 0;
+	background-image: url("gis.jpg");
+	width: 350px;
+	height: 350px;
+	border-radius: 370px;
+	background-color: #ededed;
+	background-size: 100%;
+	display: flex;
+	margin: auto;
+}
+.reloj img {
+	position: relative;
+	height: 350px;
+	transition: all 0.5s
+}
+.reloj #minun   {
+	position: absolute;
+}
+.reloj #seconds {
+	position: absolute;
+}
